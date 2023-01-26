@@ -1,0 +1,18 @@
+.place__website{
+  font-family: 'Inter', 'Arial', sans-serif; 
+  color:#FFFFFF;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 12px;
+}
+
+@media screen and (max-width: 750px){
+  .place__website{
+    padding-left: 16px;
+  }
+}

@@ -1,0 +1,13 @@
+.cover__background{
+  font-family: 'Inter', 'Arial', sans-serif; 
+  color:#FFFFFF;
+  max-width: 100%;
+    background-size: cover;
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+  align-self: center;
+  text-align: center;
+  grid-area: 1/1;
+  z-index: 1;
+}

@@ -1,0 +1,10 @@
+.footer__nav{
+  font-family: 'Inter', 'Arial', sans-serif; 
+  color:#FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #2A2C2F;
+  font-family: 'Inter', 'Arial', sans-serif;
+}

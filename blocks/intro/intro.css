@@ -1,0 +1,22 @@
+.intro{
+  font-family: 'Inter', 'Arial', sans-serif; 
+  color:#FFFFFF;
+  display: flex;
+  flex-direction: column;
+  
+  max-width: 984px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px){
+ .intro{
+    max-width: calc(100vw*(928/1024));
+  }
+}
+
+@media screen and (max-width: 768px){
+  .intro{
+    max-width: calc(100vw*(720/768));
+    }
+}

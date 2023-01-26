@@ -1,0 +1,22 @@
+.place__paragraphs{
+  font-family: 'Inter', 'Arial', sans-serif; 
+  color:#FFFFFF;
+  display: flex;
+  flex-direction: column;
+  font-style: normal;
+  gap: 26px;
+  max-width: 484px;
+}
+
+@media screen and (max-width: 768px){
+  .place__paragraphs{
+    max-width: calc(100vw*(352/768));
+  }
+}
+
+@media screen and (max-width: 750px){
+  .place__paragraphs{
+    max-width: 100vh;
+    padding: 0 16px 0 16px
+  }
+}

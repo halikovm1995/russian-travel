@@ -1,0 +1,33 @@
+.place__image{
+  font-family: 'Inter', 'Arial', sans-serif; 
+  color:#FFFFFF;
+  max-width: 460px;
+  
+  grid-row: 2/3;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1024px){
+  .place__image{
+    max-width: calc(100vw*(440/1024));
+  }
+}
+
+@media screen and (max-width: 768px){
+  .place__image{
+   max-width: calc(100vw*(340/768));
+  }
+}
+
+@media screen and (max-width: 750px){
+  .place__image{
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .place__image{
+    max-width: calc (100vw*(288/320));
+  }
+}

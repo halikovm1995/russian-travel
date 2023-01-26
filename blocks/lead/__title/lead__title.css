@@ -1,0 +1,33 @@
+.lead__title{
+  font-family: 'Inter', 'Arial', sans-serif; 
+  color:#FFFFFF;
+  font-size: 96px;
+  text-align: center;
+  line-height: 100px;
+  font-weight: 900;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 768px){
+  .lead__title{
+    max-width: calc(100vw*(720/768));
+    font-size: calc( (100vw - 320px)/(768 - 320) * (96 - 40) + 40px);
+  }
+}
+
+@media screen and (max-width: 750px){
+  .lead__subtitle{
+    margin-top: 16px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .lead__title{
+    max-width: calc(100vw*(288/320));
+    font-size: 40px;
+    line-height: 44px;
+  }
+}
+  

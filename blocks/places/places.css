@@ -1,0 +1,36 @@
+.places{
+    font-family: 'Inter', 'Arial', sans-serif; 
+    color:#FFFFFF;
+    display: flex;
+    flex-direction: column;
+    max-width: 984px;
+    margin: 0 auto;
+    row-gap: 80px;
+  }
+  
+@media screen and (max-width: 100%){
+  .places {
+    max-width: 100%;
+  }
+}
+  
+@media screen and (max-width: 1200px){
+  .places {
+    max-width: calc(100vw*(928/1024));
+  }
+}
+
+@media screen and (max-width: 1024px){
+  .places{
+    max-width: calc(100vw*(720/768));
+    gap: 73px;
+  }
+}
+
+@media screen and (max-width: 750px){
+  .places{
+    row-gap: 32px;
+    column-gap: 0;
+    max-width: 100%;
+  }
+}

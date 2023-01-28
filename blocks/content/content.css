@@ -11,14 +11,14 @@
 
 @media screen and (max-width: 1024px){
   .content{
-    gap: calc( (100vw - 1024px)/(1024 - 768) * (92 - 73) + 73px);
+    gap: calc( (100vw - 1024px)/(1024 - 768) * (92 - 88) + 88px);
     margin-top: 48px;
     }
   }
 
 @media screen and (max-width: 768px){
   .content{
-    gap: calc( (100vw - 768px)/(768 - 320) * (73 - 64) + 64px);
+    gap: calc( (100vw - 768px)/(768 - 320) * (88 - 64) + 64px);
     }
   }
 

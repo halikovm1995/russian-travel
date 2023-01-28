@@ -25,6 +25,7 @@
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
 /*Блок cover*/
+@import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__link/cover__link.css);
 @import url(../blocks/cover/__theme/cover__theme.css);
 @import url(../blocks/cover/__background/cover__background.css);

@@ -1,12 +1,12 @@
 .places{
-    font-family: 'Inter', 'Arial', sans-serif; 
-    color:#FFFFFF;
-    display: flex;
-    flex-direction: column;
-    max-width: 984px;
-    margin: 0 auto;
-    row-gap: 80px;
-  }
+  font-family: 'Inter', 'Arial', sans-serif; 
+  color:#FFFFFF;
+  display: flex;
+  flex-direction: column;
+  max-width: 984px;
+  margin: 0 auto;
+  row-gap: 80px;
+}
   
 @media screen and (max-width: 100%){
   .places {

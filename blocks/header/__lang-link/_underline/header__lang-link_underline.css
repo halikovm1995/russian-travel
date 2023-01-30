@@ -1,7 +1,6 @@
 .header__lang-link_underline{
   font-family: 'Inter', 'Arial', sans-serif; 
   color:#FFFFFF; 
-  line-height: 28px;
   font-weight: normal;
   text-decoration: underline;
 }

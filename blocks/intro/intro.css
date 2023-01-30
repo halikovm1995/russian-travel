@@ -19,3 +19,9 @@
     max-width: calc(100vw*(720/768));
   }
 }
+
+@media screen and (max-width: 768px){
+  .intro{
+    max-width: calc(100vw*(288/320));
+  }
+}

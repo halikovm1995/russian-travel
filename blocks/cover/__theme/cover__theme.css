@@ -10,3 +10,9 @@
   margin: 0 auto;
   pointer-events: none;
 }
+
+@media screen and (max-width: 320px){
+  .cover__theme{
+    gap: 16px;
+  }
+}

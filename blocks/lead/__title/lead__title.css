@@ -12,14 +12,14 @@
 @media screen and (max-width: 768px){
   .lead__title{
     max-width: calc(100vw*(720/768));
-    font-size: calc( (100vw - 320px)/(768 - 320) * (96 - 40) + 40px);
+    font-size: 96px;
   }
 }
 
-@media screen and (max-width: 750px){
-  .lead__subtitle{
-    margin-top: 16px;
-    line-height: 20px;
+@media screen and (max-width: 708px){
+  .lead__title{
+    font-size: 43px;
+    line-height: 50px;
   }
 }
 
@@ -30,4 +30,3 @@
     line-height: 44px;
   }
 }
-  

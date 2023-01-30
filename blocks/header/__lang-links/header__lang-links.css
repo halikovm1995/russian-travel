@@ -3,3 +3,17 @@
   align-items: end;
   gap: 18px;
 }
+
+
+@media screen and (max-width: 768px){
+  .header__lang-links{
+    line-height: 47px;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .header__lang-links{
+    font-size: 18px;
+    line-height: 32px;
+  }
+}

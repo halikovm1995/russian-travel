@@ -1,7 +1,6 @@
 .footer__links{
   font-family: 'Inter', 'Arial', sans-serif; 
   color:#FFFFFF;
-  padding-inline-start: 0;
   display: flex;
   flex-direction: row;
   gap: 18px;

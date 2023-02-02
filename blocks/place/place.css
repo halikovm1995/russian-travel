@@ -17,12 +17,11 @@
 
 @media screen and (max-width: 768px){
   .place{
-    row-gap: 48px;
     column-gap: 28px;
   }
 }
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 700px){
   .place {
     display: inline-flex;
     flex-direction: column;

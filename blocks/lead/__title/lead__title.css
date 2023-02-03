@@ -15,7 +15,8 @@
   }
 }
 
-@media screen and (max-width: 708px){
+/*это максимальноя дальняя контрольная точка от разрешения 768px позволяющая не вы выпадать данному блоку*/
+@media screen and (max-width: 717px){
   .lead__title{
     font-size: 43px;
     line-height: 50px;

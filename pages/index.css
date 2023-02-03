@@ -51,6 +51,3 @@
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__nav/footer__nav.css);
-
-
-* { outline: 1px solid yellowgreen; }

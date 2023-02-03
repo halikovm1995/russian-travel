@@ -9,7 +9,7 @@
   margin: 0 auto;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 800px){
   .lead__title{
     max-width: calc(100vw*(720/768));
   }
